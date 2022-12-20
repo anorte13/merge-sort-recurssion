@@ -1,4 +1,6 @@
 let numArray = [0, 3, 1, 2, 24, 23, 1];
+let output = mergeSort(numArray);
+console.log(output);
 
 function mergeSort(arr) {
   if (arr === 1) {
